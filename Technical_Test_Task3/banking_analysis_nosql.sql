@@ -3,6 +3,8 @@ Types of NoSQL databases: Key value Stores (Riak, Voldemort, and Redis), Wide Co
 
 Question 1:
 
+db: banking_analysis
+
 {
   "Account_Details": {
     "Account_Number": "80823221",
@@ -15,6 +17,8 @@ Question 1:
     "Daily_Usage_Mins": "Last_Login": "5"
   }
 }
+
+db.banking_analysis.find( {} ) --> using mongoDB, get the data back from the database
 
 
 Question 2:
